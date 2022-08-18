@@ -1,0 +1,4 @@
+org\example\stepDefinitions\SD01_Purchasing.class
+org\example\stepDefinitions\Hooks.class
+org\example\testRunner\R01_Smoke.class
+org\example\pages\Locators.class

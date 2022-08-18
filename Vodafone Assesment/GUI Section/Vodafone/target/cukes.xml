@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="25.146">
+    <testcase classname="F01_Purchasing | user purchasing and item from vodafone web site" name="guest user couldn't purchase and item without filling personal information" time="25.024">
+        <system-out><![CDATA[Given Go to Vodafone Shop using URL.........................................passed
+When Select language as English.............................................passed
+And Go to Shop By Brand section and select Iphone...........................passed
+And Select any of returned iphone mobiles...................................passed
+And Press add to cart.......................................................passed
+And Press proceed to checkout...............................................passed
+And Select Delivery Options as Cairo Ain Shams..............................passed
+And Select Deliver to My Address............................................passed
+And Add address details.....................................................passed
+And Press continue..........................................................passed
+And Leave Personal info. Tab empty..........................................passed
+Then Assert on error message returned from Full Name field..................passed
+]]></system-out>
+    </testcase>
+</testsuite>
